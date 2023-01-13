@@ -3,9 +3,6 @@ const searchBtn = document.getElementById('submitLocation') as HTMLButtonElement
 const dates = document.getElementsByTagName('span') as HTMLCollectionOf<HTMLElement>;
 const cityName = document.querySelector('h5') as HTMLElement;
 
-
-console.log(dates)
-    // console.log(userLocation, searchBtn)
 searchBtn.addEventListener('click', (event) => {
     event.preventDefault();
     console.log('salom', userLocation.value)
